@@ -64,5 +64,10 @@
     "test-input":  "cd tests && php test.php && cd ..",
     "performance": "cd tests && php geometryPerformance.php && cd ..",
     "bench": "vendor/bin/phpbench run --report=aggregate --sleep 10000"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.1"
+    }
   }
 }
